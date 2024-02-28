@@ -14,4 +14,7 @@ Starter (boilerplate) for all future projects.
 
 ## citations
 * [codePen](codepen.io)
+* [P. Colin Manikoth] (https://github.com/ewuweblab/web-starter)
+
+* [Google](https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap)
 
