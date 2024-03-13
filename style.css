@@ -17,11 +17,13 @@ body {
 /* nav link states */
 a {
   display: inline-block;
+  
 }
 
 nav {
   display: flex;
   gap: 1rem;
+  background-color: #413c58;
 }
 
 /* First */
@@ -163,7 +165,7 @@ aside p {
 
 
 /* Media Queries */
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 1000px ) {
   
   main { 
      grid-template-columns: repeat(1, 1fr);
@@ -172,8 +174,8 @@ aside p {
   main img {
     display: block;
     
-    max-height: 25%;
-    width: 50%;
+    height: auto;
+    width: auto;
   }
   
   main h1 {
@@ -183,6 +185,10 @@ aside p {
     background-color: #413c58d1;
   }
  
+  aside{
+    display: block;
+  }
+
   aside nav {
     flex-direction: column;
   }
